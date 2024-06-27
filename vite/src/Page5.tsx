@@ -3,6 +3,7 @@ import './App.css'
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import image from "./assets/bruno-ramos-lara-sz3AWACktLc-unsplash.jpg"
+import "./page5.css"
 
 function Page5() {
   const [count, setCount] = useState(0)

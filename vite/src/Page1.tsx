@@ -3,6 +3,7 @@ import './App.css'
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import image from "./assets/jr-korpa-9XngoIpxcEo-unsplash.jpg"
+import "./page1.css"
 
 function Page1() {
   const [count, setCount] = useState(0)

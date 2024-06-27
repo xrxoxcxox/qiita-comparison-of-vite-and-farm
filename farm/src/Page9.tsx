@@ -3,6 +3,7 @@ import './App.css'
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import image from "./assets/rodion-kutsaiev-F573ZRbKOEw-unsplash.jpg"
+import "./page9.css"
 
 function Page9() {
   const [count, setCount] = useState(0)
