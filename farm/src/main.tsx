@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { CssBaseline } from '@mui/material';
 import Page1 from './Page1.tsx';
 import Page2 from './Page2.tsx';
 import Page3 from './Page3.tsx';
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
+    <CssBaseline />
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
