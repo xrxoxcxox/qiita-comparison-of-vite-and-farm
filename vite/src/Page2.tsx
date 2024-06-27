@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import image from "./assets/bruno-ramos-lara-sz3AWACktLc-unsplash.jpg"
 
 function Page2() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function Page2() {
         >
           This is Page 2
         </Typography>
+        <img src={image} alt=""/>
       </Box>
     </>
   )
