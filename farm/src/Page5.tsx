@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import image from "./assets/bruno-ramos-lara-sz3AWACktLc-unsplash.jpg"
+import image from "./assets/joel-filipe-GVV669GVYjo-unsplash.jpg"
 import "./page5.css"
 
 function Page5() {
